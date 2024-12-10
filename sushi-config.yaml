@@ -39,19 +39,11 @@ publisher:
 # The page file name is used as the key. If title is not provided,
 # then the title will be generated from the file name.  If a
 # generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
-# with supported extensions (e.g., .md/.xml) will be treated as
-# sub-pages.
-#
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
+pages:
+ index.md: 
+  title: Example Home
+ workflow.md: 
+  title: Workflow
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -77,6 +69,7 @@ publisher:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
