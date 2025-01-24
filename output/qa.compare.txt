@@ -4,30 +4,54 @@ CRISP : Validation Results
 err = 0, warn = 4, info = 1
 $--
 Generated $--. FHIR version $-- for fhir.example#$-- (canonical = http://example.org)
- Build Errors : 18 / 4 / 0
+ Build Errors : 42 / 4 / 0
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 185, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 194, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 557, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 358, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1608, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 3004, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2098, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2780, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\artifacts.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\index.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\toc.html#/html/body/div/div/div/p/a at Line 141, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\workflow.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 204, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 94, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 94, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 94, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 567, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 368, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1618, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 96, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 100, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 3014, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 100, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2108, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 100, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2790, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\artifacts.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\future-ideas.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\future-ideas.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\index.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\questionnaire.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\questionnaire.html#/html/body/div/div/div/p/a at Line 171, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\sdc-extraction.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\sdc-extraction.html#/html/body/div/div/div/p/a at Line 171, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\toc.html#/html/body/div/div/div/p/a at Line 151, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\workflow.html#/html/body/div/div/nav/div/div/ul/li/a at Line 92, column 6: The link 'extraction.html' for "Extraction" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\workflow.html#/html/body/div/div/div/p/a at Line 213, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

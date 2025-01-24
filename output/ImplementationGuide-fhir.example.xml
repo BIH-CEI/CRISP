@@ -9,10 +9,10 @@
   <version value="0.1.0"/>
   <name value="CRISP"/>
   <status value="draft"/>
-  <date value="2024-12-10T12:33:46+01:00"/>
-  <publisher value="Example Publisher"/>
+  <date value="2025-01-24T13:49:28+01:00"/>
+  <publisher value="Berlin Institute of Health"/>
   <contact>
-    <name value="Example Publisher"/>
+    <name value="Berlin Institute of Health"/>
     <telecom>
       <system value="url"/>
       <value value="http://example.org/example-publisher"/>
@@ -484,6 +484,30 @@
         </extension>
         <nameUrl value="workflow.html"/>
         <title value="Workflow"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="future-ideas.html"/>
+        </extension>
+        <nameUrl value="future-ideas.html"/>
+        <title value="Future Ideas"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="questionnaire.html"/>
+        </extension>
+        <nameUrl value="questionnaire.html"/>
+        <title value="Questionnaire"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="sdc-extraction.html"/>
+        </extension>
+        <nameUrl value="sdc-extraction.html"/>
+        <title value="Extraction"/>
         <generation value="markdown"/>
       </page>
     </page>

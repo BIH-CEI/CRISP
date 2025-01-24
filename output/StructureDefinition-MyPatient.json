@@ -9,10 +9,10 @@
   "version" : "0.1.0",
   "name" : "MyPatient",
   "status" : "draft",
-  "date" : "2024-12-10T12:33:46+01:00",
-  "publisher" : "Example Publisher",
+  "date" : "2025-01-24T13:49:28+01:00",
+  "publisher" : "Berlin Institute of Health",
   "contact" : [{
-    "name" : "Example Publisher",
+    "name" : "Berlin Institute of Health",
     "telecom" : [{
       "system" : "url",
       "value" : "http://example.org/example-publisher"

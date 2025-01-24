@@ -11,10 +11,10 @@
   <version value="0.1.0"/>
   <name value="MyPatient"/>
   <status value="draft"/>
-  <date value="2024-12-10T12:33:46+01:00"/>
-  <publisher value="Example Publisher"/>
+  <date value="2025-01-24T13:49:28+01:00"/>
+  <publisher value="Berlin Institute of Health"/>
   <contact>
-    <name value="Example Publisher"/>
+    <name value="Berlin Institute of Health"/>
     <telecom>
       <system value="url"/>
       <value value="http://example.org/example-publisher"/>

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>PatientExample -  v0.1.0</title>
+    <title>Future Ideas -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"6.2"}
-    h3,h4,h5,h6{--heading-prefix:"6.2"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -106,7 +106,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Future Ideas</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -118,9 +118,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">CRISP - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://example.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-
+  <h2>Future Ideas</h2>
   
 
 
@@ -130,58 +137,94 @@
 
 
 
-<ul class="nav nav-tabs">
 
-  <li class="active">
-    <a href="#">Narrative Content</a>
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h1 id="workflow">Workflow</h1>
+<ul>
+  <li>ggfs. Extraction direkt in Bundle, um damit dann Referenzen direkt statisch vorzugeben -&gt; weil diese beim POSTen erhalten bleiben</li>
+  <li>source of truth -&gt; was wenn widersprüchliche Werte aus unterschiedlichen Quellen / Zeitpunkten auftauchen (z.B. Pflegegrad war vor 2 Jahren noch 3, jetzt 4, was stimmt? Wie werden Konflikte aufgelöst? 2 unabhängige Observations?)</li>
+  <li>logische Validierung eines QuestionnaireRessponse vor Extraction(einfacher), um inhaltliche Fehler beim Ausfüllen zu verhindern (Invariante? CQL?) alles, was man nicht über Bindings, RegEx oder enableWhan, maxPlaces einschränken kann</li>
+  <li></li>
+  <li>Abläufe für Synoptic Cancer Reporting einmal darstellen</li>
+  <li>langfristig ggfs.  als Ergänzung zum SNOMED synoptic Cancer Reporting IG (Link!)</li>
+  <li>Ergbnisse dort vorstellen und mit einarbeiten</li>
+  <li>Daher: am besten direkt auf Englisch verfassen (lieber kurz und knapp auf Englisch als ausführlich auf deutsch)</li>
+  <li>"Testing" auf dem Community Treffen</li>
+  <li>Wie bekommt man die semantische Annotation in ein Pathosystem?</li>
+  <li>z.B. über semantisch vorannotierten Fragebogen, der vom Pathologen ausgefüllt wird</li>
+  <li>Woher weiß der Pathologe, welchen Fragebogen er ausfüllen soll?</li>
+  <li>Entitätbezogene Formulare,</li>
+  <li>teils durch initiale Fragestellung des klinikers ferstgelegt,</li>
+  <li>teils durch Pathologen / Studendiagnostik festgelegt</li>
+  <li>Wie können solche Formulare bereitgestellt werden?</li>
+  <li>FHIR Questionnaires</li>
+  <li>
+    <p>RedCAP für Research, aber für Versogung lizenztechnisch schwierig / teuer</p>
   </li>
-
-
-
-  
-    <li>
-      <a href="Patient-PatientExample.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="Patient-PatientExample.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="Patient-PatientExample.ttl.html">TTL</a>
-    </li>
-  
-
-
-
+  <li>Wie kann man FHIR aus PathoLaborsystemen rausbekommen?
+    <ul>
+      <li>IHE Structured Patho Report</li>
+      <li>FHIR Diagnostoc Report</li>
+      <li>Kombination in MII Patho report
+        <ul>
+          <li>Struktur vorgibt, die sowohl Daten strukturiert</li>
+          <li>als auch Dokumente rendern kann</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Wie kriegt man jetzt die Annotierten Beobachtungen in FHIR?
+    <ul>
+      <li>Als z.B. Patho Finding unter DiagnosticReport.result</li>
+    </ul>
+  </li>
+  <li>Das kann ich im Prinzip irgendwie machen, wie mache ich das denn in FHIR?
+    <ul>
+      <li>Extraction
+        <ul>
+          <li>Observation</li>
+          <li>Definition</li>
+          <li>StructureMap</li>
+          <li>Template</li>
+        </ul>
+      </li>
+      <li>Dafür müssen aber auch die Questionnaires schon die richtigen Extension</li>
+      <li>Daher muss es eine Instanz geben, die sowohl die Questionnaires als auch die Zielspezifikation definieren kann</li>
+    </ul>
+  </li>
 </ul>
 
+<p>Grafik übergang von Kliniker zu Labor
+-&gt; Service Request mit Indikation/ Fragestellung
+altenrativ nach SDC über Task 
+(nach POST muss man die ID / Etag merken, damit man updaten kann)
+(PATCH Befehl? )
+Laborsystem schickt dann Questionnaire für die klinischen Vorinformationen
+Kliniker füllt aus, Service request wird geupdated und verschickt
+Probe wird verschickt (OrderEntry)
+Prepopulation
+Proben werden im Labor kontrolliert, systematisch erfasst, registriert und pseudonymisiert 
+Untersuchung wird durchgeführt, parallel dazu / danach Erfassung mit synoptischem Fragebogen
+-&gt; Auswahl des Fragebogens und der notwendigen / optionalen Module durch Pathologen,</p>
 
-  <a name="root"> </a>
+<p>(gesetzt den Fall, dass es verfügbare ICCR-Fragebögen gibt)</p>
 
+<p>Beenden des Fragebogens, Erstellen des Befundes
+Erstellen eines DiagnosticReports als Datenelement 
+Erstellen eines Bundels als signiertes Dokument für Archiv und Legal Reasons
+Erstellen einer Composition für das Rendern als menschenlesbares Dokument</p>
 
-  <h2 id="root">Example Patient: PatientExample</h2>
-
-
-
-
-    <!-- insert intro if present -->
-  
-
-
-
-  <div><p class="res-header-id"><b>Generated Narrative: Patient PatientExample</b></p><a name="PatientExample"> </a><a name="hcPatientExample"> </a><a name="PatientExample-en-US"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">James Pond  (no stated gender), DoB Unknown</p><hr/></div>
-
-  
-
-    <!-- insert notes if present -->
-  
+<p>SMART Security on FHIR ! 
+auf EHRs 
+SMART on FHIR am Anfang (Patientendaten, Krankheitsdaten / Laborwerte
+SMART on FHIR am Ende (DiagnosticReport in EHR hinterlegen)
+ePA?</p>
 
 
 
@@ -200,7 +243,7 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l327">​</a>
+        <p><a name="l423">​</a>
           IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Berlin Institute of Health</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 24, 2025 13:49+0100">2025-01-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
