@@ -16,7 +16,7 @@ releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Example Publisher
+  name: Berlin Institute of Health
   url: http://example.org/example-publisher
   # email: test@example.org
 
@@ -44,6 +44,13 @@ pages:
   title: Example Home
  workflow.md: 
   title: Workflow
+ future-ideas.md:
+  title: Future Ideas
+ questionnaire.md: 
+  title: Questionnaire
+ extraction.md: 
+  title: Extraction
+ 
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -68,7 +75,10 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Workflow: workflow.html
+  Questionnaire: questionnaire.html
+  Extraction: extraction.html
+  Future Ideas: future-ideas.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
