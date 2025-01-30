@@ -42,6 +42,8 @@ publisher:
 pages:
  index.md: 
   title: Example Home
+ background.md:
+  title: Background
  workflow.md: 
   title: Workflow
  future-ideas.md:
@@ -75,9 +77,10 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Background: background.html
   Workflow: workflow.html
   Questionnaire: questionnaire.html
-  Extraction: extraction.html
+  Extraction: sdc-extraction.html
   Future Ideas: future-ideas.html
 
 
