@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CRISP",
   "status" : "draft",
-  "date" : "2025-01-24T13:49:28+01:00",
+  "date" : "2025-01-30T11:07:20+01:00",
   "publisher" : "Berlin Institute of Health",
   "contact" : [{
     "name" : "Berlin Institute of Health",
@@ -29,7 +29,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -635,6 +635,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Example Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "background.html"
+        }],
+        "nameUrl" : "background.html",
+        "title" : "Background",
         "generation" : "markdown"
       },
       {

@@ -1,9 +1,9 @@
-﻿<!-- layouts\layout-changehistory.html --><!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title> -  v0.1.0</title>
+    <title>Background -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -109,7 +109,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Background</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -121,9 +121,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">CRISP - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://example.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Background</h2>
   
 
 
@@ -133,47 +140,72 @@
 
 
 
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="Patient-PatientExample.html">Narrative Content</a>
-  </li>
 
 
 
-  
-    <li>
-      <a href="Patient-PatientExample.xml.html">XML</a>
-    </li>
-  
 
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h1 id="mii-pathology-report-advancing-structured-pathology-reporting">MII Pathology Report: Advancing Structured Pathology Reporting</h1>
 
-  
-    <li>
-      <a href="Patient-PatientExample.json.html">JSON</a>
-    </li>
-  
+<h2 id="introduction">Introduction</h2>
 
+<p>The MII Pathology Report represents a significant advancement in structured pathology reporting, addressing the challenges of converting freetext into structured data. This initiative, a collaboration between the German Medical Informatics Initiative's pathology module and the Federation of German Pathologists (Bund Deutscher Pathologen), has developed a generalized structure based on <a href="https://www.hl7.org/fhir/">HL7 FHIR standards</a> and <a href="https://wiki.ihe.net/index.php/Anatomic_Pathology_Structured_Reports">IHE Anatomic Structural Pathology Report 2.0</a>. This structure serves as both a foundational data model and a blueprint for document-based workflow artifacts essential in modern medicine.</p>
 
-  
-    <li>
-      <a href="Patient-PatientExample.ttl.html">TTL</a>
-    </li>
-  
+<h2 id="mii-pathology-report-evolution">MII Pathology Report Evolution</h2>
 
+<p>The most recent version of the MII Pathology Report is the 2025 edition, with the 2026 version currently in development. This ongoing evolution demonstrates the commitment to continually improving and updating the reporting structure to meet the changing needs of pathology and medical informatics.</p>
 
+<h2 id="semantic-annotation-and-interoperability">Semantic Annotation and Interoperability</h2>
 
+<p>While the MII Pathology Report provides a robust structure, true interoperability requires semantic annotation of pathological findings. <a href="https://www.snomed.org/">SNOMED-CT</a> and <a href="https://loinc.org/">LOINC</a> are identified as the most suitable terminologies for this purpose. However, the scarcity of individuals with expertise in both pathology and code systems poses a challenge for post-annotation efforts.</p>
+
+<h2 id="synoptic-reporting-a-promising-approach">Synoptic Reporting: A Promising Approach</h2>
+
+<p>To address these challenges, Synoptic Reporting has emerged as a promising solution. This approach structures the reporting process from the outset by employing a questionnaire-based methodology. The <a href="http://www.iccr-cancer.org/">International Collaboration on Cancer Reporting (ICCR)</a> has played a crucial role in this area by:</p>
+
+<ol>
+  <li>Forming different subgroups</li>
+  <li>Curating questionnaires deemed appropriate and sufficient for pathological examination of specific cancer categories</li>
+</ol>
+
+<h2 id="snomed-synoptic-cancer-reporting-group">SNOMED Synoptic Cancer Reporting Group</h2>
+
+<p>Building on the ICCR forms, the <a href="https://www.snomed.org/snomed-ct/use-of-snomed-ct/snomed-ct-worldwide/special-interest-groups">SNOMED Synoptic Cancer Reporting Group</a> is actively working on annotating these questionnaires. This effort aims to bridge the gap between structured reporting and semantic interoperability.</p>
+
+<h2 id="benefits-of-structured-and-annotated-reporting">Benefits of Structured and Annotated Reporting</h2>
+
+<p>The implementation of structured and semantically annotated pathology reports offers several advantages:</p>
+
+<ol>
+  <li>Improved data quality</li>
+  <li>Enhanced completeness of pathological reports</li>
+  <li>Facilitated comparability of different pathology reports</li>
+  <li>Streamlined quality reporting processes</li>
+  <li>Improved research capabilities</li>
+</ol>
+
+<p>By addressing the challenges of freetext conversion and semantic annotation, the MII Pathology Report and associated initiatives are paving the way for more efficient, accurate, and interoperable pathology reporting in modern healthcare systems.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.medizininformatik-initiative.de/en">German Medical Informatics Initiative</a></li>
+  <li><a href="https://www.pathologie.de/">Federation of German Pathologists (Bund Deutscher Pathologen)</a></li>
+  <li><a href="https://www.hl7.org/fhir/">HL7 FHIR</a></li>
+  <li><a href="https://wiki.ihe.net/index.php/Anatomic_Pathology_Structured_Reports">IHE Anatomic Structural Pathology Report 2.0</a></li>
+  <li><a href="https://www.snomed.org/">SNOMED-CT</a></li>
+  <li><a href="https://loinc.org/">LOINC</a></li>
+  <li><a href="http://www.iccr-cancer.org/">International Collaboration on Cancer Reporting (ICCR)</a></li>
+  <li><a href="https://www.snomed.org/snomed-ct/use-of-snomed-ct/snomed-ct-worldwide/special-interest-groups">SNOMED Synoptic Cancer Reporting Group</a></li>
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">: Patient/PatientExample - Change History</h2>
-  <p>History of changes for PatientExample .</p>
 
-  
 
 </div>
-
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
     </div>    <!-- /container -->
@@ -182,15 +214,13 @@
   <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
-
   <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l311">​</a>
+        <p><a name="l417">​</a>
           IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Berlin Institute of Health</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 30, 2025 11:07+0100">2025-01-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">

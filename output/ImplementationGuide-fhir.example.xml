@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CRISP"/>
   <status value="draft"/>
-  <date value="2025-01-24T13:49:28+01:00"/>
+  <date value="2025-01-30T11:07:20+01:00"/>
   <publisher value="Berlin Institute of Health"/>
   <contact>
     <name value="Berlin Institute of Health"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.1.0"/>
+    <version value="6.2.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -476,6 +476,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Example Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="background.html"/>
+        </extension>
+        <nameUrl value="background.html"/>
+        <title value="Background"/>
         <generation value="markdown"/>
       </page>
       <page>
