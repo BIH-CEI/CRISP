@@ -152,6 +152,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Fragebogenbasierte Pathologie ist hart im kommen.</p>
 
+<p>The SDC Implementation Guide</p>
+
+<ul>
+  <li>observation-based</li>
+  <li>definition-based</li>
+  <li>structureMap-based</li>
+  <li>template-based</li>
+</ul>
+
+<p>It specifies Inputs and Outputs for Operations using those approaches. However, the SDC implementation Guide provides no practical reference implementation. 
+For reference implementations
+The most important data fields of a FHIR observation are code and value[x]. Value is the specific value of the questionnaire, depending on the field type of the questionnaire. Code can be statically set within the questionnaire and is extracted accordingly. 
+The specific fields relevant for extraction have to be marked with an extension. In addition, . A questionnaire can be divided into groups. If I want to extract multiple different ressources, it makes sense to group these variables into a questionnaire group.</p>
+
+<h3 id="observation-based-extraction">Observation-based extraction</h3>
+<p>For more details on observation-baed extraction, please refer to the SDC page. 
+This is suited for extracting specific data into FHIR observations.</p>
+
+<h4 id="advantages">Advantages</h4>
+<ul>
+  <li>easy to configure</li>
+  <li>only
+    <h4 id="disadvantages">Disadvantages</h4>
+  </li>
+  <li>not suited if other FHIR Ressource Types are needed</li>
+  <li>no combination with other extraction methods</li>
+</ul>
+
+<p>The HAPI Server has implemented observation- and definition-based functionalitites. Those can be triggered by running an $extract operation on QuestionnaireResponses.</p>
 
 
 
@@ -170,8 +199,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l298">​</a>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Berlin Institute of Health</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 30, 2025 11:07+0100">2025-01-30</span>
+        <p><a name="l349">​</a>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Berlin Institute of Health</a>.  Package fhir.example#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 5, 2025 15:53+0100">2025-02-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -29,7 +29,7 @@ ERROR: C:\Users\thoma\coding\CRISP\output\background.html#/html/body/div/div/div
 ERROR: C:\Users\thoma\coding\CRISP\output\future-ideas.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 ERROR: C:\Users\thoma\coding\CRISP\output\index.html#/html/body/div/div/div/p/a at Line 212, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 ERROR: C:\Users\thoma\coding\CRISP\output\questionnaire.html#/html/body/div/div/div/p/a at Line 174, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\sdc-extraction.html#/html/body/div/div/div/p/a at Line 174, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
+ERROR: C:\Users\thoma\coding\CRISP\output\sdc-extraction.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 ERROR: C:\Users\thoma\coding\CRISP\output\toc.html#/html/body/div/div/div/p/a at Line 154, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 ERROR: C:\Users\thoma\coding\CRISP\output\workflow.html#/html/body/div/div/div/p/a at Line 216, column 28: The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
