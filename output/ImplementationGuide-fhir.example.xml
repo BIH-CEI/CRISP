@@ -9,13 +9,13 @@
   <version value="0.1.0"/>
   <name value="CRISP"/>
   <status value="draft"/>
-  <date value="2025-02-05T16:34:42+01:00"/>
+  <date value="2025-02-05T17:06:32+01:00"/>
   <publisher value="Berlin Institute of Health"/>
   <contact>
     <name value="Berlin Institute of Health"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.org/example-publisher"/>
+      <value value="https://www.bihealth.org"/>
     </telecom>
   </contact>
   <packageId value="fhir.example"/>
@@ -36,6 +36,11 @@
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
     <version value="5.1.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_sdc">
+    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
+    <packageId value="hl7.fhir.uv.sdc"/>
+    <version value="3.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

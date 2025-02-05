@@ -37,7 +37,7 @@
      fhir:name [ fhir:v "Berlin Institute of Health" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+       fhir:value [ fhir:v "https://www.bihealth.org" ]
      ] )
   ] ) ; # 
   fhir:item ( [

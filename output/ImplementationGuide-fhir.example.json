@@ -9,13 +9,13 @@
   "version" : "0.1.0",
   "name" : "CRISP",
   "status" : "draft",
-  "date" : "2025-02-05T16:34:42+01:00",
+  "date" : "2025-02-05T17:06:32+01:00",
   "publisher" : "Berlin Institute of Health",
   "contact" : [{
     "name" : "Berlin Institute of Health",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://example.org/example-publisher"
+      "value" : "https://www.bihealth.org"
     }]
   }],
   "packageId" : "fhir.example",
@@ -40,6 +40,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.1.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_sdc",
+    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+    "packageId" : "hl7.fhir.uv.sdc",
+    "version" : "3.0.0"
   }],
   "definition" : {
     "extension" : [{

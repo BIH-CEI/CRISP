@@ -41,7 +41,7 @@
     <name value="Berlin Institute of Health"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.org/example-publisher"/>
+      <value value="https://www.bihealth.org"/>
     </telecom>
   </contact>
   <item>

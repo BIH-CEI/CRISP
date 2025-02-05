@@ -29,7 +29,7 @@
     "name" : "Berlin Institute of Health",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://example.org/example-publisher"
+      "value" : "https://www.bihealth.org"
     }]
   }],
   "item" : [{

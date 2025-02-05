@@ -16,13 +16,13 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CRISP"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-02-05T16:34:42+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-05T17:06:32+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Berlin Institute of Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Berlin Institute of Health" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+       fhir:value [ fhir:v "https://www.bihealth.org" ]
      ] )
   ] ) ; # 
   fhir:packageId [ fhir:v "fhir.example"] ; # 
@@ -52,6 +52,14 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "5.1.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_sdc" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.sdc" ] ;
+     fhir:version [ fhir:v "3.0.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [

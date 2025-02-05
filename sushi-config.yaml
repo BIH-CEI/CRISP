@@ -17,15 +17,14 @@ releaseLabel: ci-build
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: Berlin Institute of Health
-  url: http://example.org/example-publisher
-  # email: test@example.org
+  url: https://www.bihealth.org  # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
+dependencies:
+  hl7.fhir.uv.sdc: 3.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -82,6 +81,7 @@ menu:
   Questionnaire: questionnaire.html
   Extraction: sdc-extraction.html
   Future Ideas: future-ideas.html
+  Artifacts: artifacts.html
 
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

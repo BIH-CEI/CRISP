@@ -12,7 +12,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "http://example.org/example-publisher"
+          "value": "https://www.bihealth.org"
         }
       ]
     }
@@ -20,6 +20,14 @@
   "packageId": "fhir.example",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.uv.sdc",
+      "version": "3.0.0",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "id": "hl7_fhir_uv_sdc"
+    }
   ],
   "definition": {
     "resource": [
