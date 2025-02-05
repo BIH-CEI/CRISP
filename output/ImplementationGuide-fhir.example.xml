@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CRISP"/>
   <status value="draft"/>
-  <date value="2025-02-05T15:53:09+01:00"/>
+  <date value="2025-02-05T16:34:42+01:00"/>
   <publisher value="Berlin Institute of Health"/>
   <contact>
     <name value="Berlin Institute of Health"/>
@@ -441,6 +441,26 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/MinimalPSAExample"/>
+      </reference>
+      <name value="Example for definition-based extraction"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/MinimalPSAExampleResponse"/>
+      </reference>
+      <name value="MinimalPSAExampleResponse"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>

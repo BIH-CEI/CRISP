@@ -5,10 +5,10 @@
   "version": "0.1.0",
   "name": "CRISP",
   "status": "draft",
-  "publisher": "Example Publisher",
+  "publisher": "Berlin Institute of Health",
   "contact": [
     {
-      "name": "Example Publisher",
+      "name": "Berlin Institute of Health",
       "telecom": [
         {
           "system": "url",
@@ -65,8 +65,28 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "background.html",
+          "title": "Background",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "workflow.html",
           "title": "Workflow",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "future-ideas.html",
+          "title": "Future Ideas",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "questionnaire.html",
+          "title": "Questionnaire",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "sdc-extraction.html",
+          "title": "Extraction",
           "generation": "markdown"
         }
       ]

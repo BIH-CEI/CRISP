@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "CRISP",
   "status" : "draft",
-  "date" : "2025-02-05T15:53:09+01:00",
+  "date" : "2025-02-05T16:34:42+01:00",
   "publisher" : "Berlin Institute of Health",
   "contact" : [{
     "name" : "Berlin Institute of Health",
@@ -597,6 +597,28 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/MinimalPSAExample"
+      },
+      "name" : "Example for definition-based extraction",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "QuestionnaireResponse"
+      }],
+      "reference" : {
+        "reference" : "QuestionnaireResponse/MinimalPSAExampleResponse"
+      },
+      "name" : "MinimalPSAExampleResponse",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

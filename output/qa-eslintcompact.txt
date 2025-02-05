@@ -1,6 +1,19 @@
 CRISP
 =========================================
 
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/MinimalPSAExample.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/MinimalPSAExampleResponse.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Berlin Institute of Health" cannot be resolved (NOTFOUND)
@@ -27,7 +40,28 @@ Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
-C:\Users\thoma\coding\CRISP\fsh-generated\resources\StructureDefinition-MyPatient.json: line 1, col 57205, Info - Der String-Wert enthält Text, der wie eingebettete HTML-Tags aussieht. Wenn dieser Inhalt ohne entsprechende Nachbearbeitung in HTML gerendert wird, kann er ein Sicherheitsrisiko darstellen (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 0, col 0, Error - Conformance resource /Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json - the canonical URL (http://example.org/Questionnaire/MinimalPSAExample) does not match the URL (http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example) (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 0, col 0, Error - Resource id/url mismatch: MinimalPSAExample/http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example (INVARIANT)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 29954, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-performerType ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 29926, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-performerType' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 30868, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 30847, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31100, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observation-extract-category ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 30971, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observation-extract-category' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31368, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observation-extract-category ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31203, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observation-extract-category' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31367, Error - Unbekannter Code 22637-3 in http://terminology.hl7.org/CodeSystem/observation-category Version 1.0.1 (CODEINVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31964, Error - !!Regel que-1: 'Group items must have nested items, display items cannot have nested items' fehlgeschlagen (INVARIANT)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31728, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 31701, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 32101, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 32074, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 35030, Error - !!Die extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext ist nicht bekannt, and hier nicht erlaubt (STRUCTURE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 1, col 34998, Error - URL-Wert 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemExtractionContext' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/Questionnaire-MinimalPSAExample.json: line 0, col 0, Error - URL Mismatch http://example.org/Questionnaire/MinimalPSAExample vs http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example (BUSINESSRULE)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/QuestionnaireResponse-MinimalPSAExampleResponse.json: line 18, col 86, Error - URL-Wert 'http://hl7.org/fhir/Observation#Observation.valueQuantity.value' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/QuestionnaireResponse-MinimalPSAExampleResponse.json: line 27, col 87, Error - URL-Wert 'http://hl7.org/fhir/DiagnosticReport#DiagnosticReport.conclusion' löst nicht auf (INVALID)
+/Users/thimo/Desktop/Charite/Arbeit/CRISP/CRISP/CRISP/fsh-generated/resources/QuestionnaireResponse-MinimalPSAExampleResponse.json: line 31, col 95, Info - Der Fragebogen 'http://example.org/fhir/QuestionnairesSDC/Questionnaire/MinimalPSAExample' konnte nicht gefunden werden, so dass keine Validierung gegen den Basisfragebogen durchgeführt werden kann. (REQUIRED)
 
-err = 0, warn = 4, info = 1
-IG Publisher Version: 1.8.1
+err = 21, warn = 6, info = 1
+IG Publisher Version: 1.8.10

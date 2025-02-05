@@ -12,5 +12,13 @@
     "url" : "http://example.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient"
+  },
+  {
+    "id" : "MinimalPSAExample",
+    "type" : "Questionnaire",
+    "url" : "http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example",
+    "version" : "0.1.0",
+    "name" : "Definition_based_extraction_example",
+    "oids" : ["2.16.840.1.113883.3.1937.777.18.27.10"]
   }
 ]
