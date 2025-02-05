@@ -7,7 +7,7 @@ Usage: #definition
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.113883.3.1937.777.18.27.10"
 * name = "Definition_based_extraction_example"
-* title = "Example for definition-based extraction"
+* title = "Example for observation & definition-based extraction"
 * status = #draft
 * experimental = false
 * date = "2024-04-26T10:26:24Z"
@@ -39,8 +39,6 @@ Usage: #definition
   * valueCodeableConcept = http://terminology.hl7.org/CodeSystem/observation-category#22637-3 "Pathology report diagnosis"
 
 // Definition-based extraction
-* item[+] // Erstellung des Observations-Grouper
-  * insert addExtractionContextGrouperNew("Observation_additional-Grouper", "https://www.medizininformatik-initiative.de/fhir/ext/modul-patho/StructureDefinition/mii-pr-patho-additional-specified-grouper#Observation", #Observation) 
 * item[+] // Erstellung der PathoFindings
   * insert addExtractionContextGrouperNew("Observation_PSA-Serologie", "https://www.medizininformatik-initiative.de/fhir/ext/modul-patho/StructureDefinition/mii-pr-patho-finding#Observation", #Observation)
   * item[+] // Ab hier wird das Finding befüllt
