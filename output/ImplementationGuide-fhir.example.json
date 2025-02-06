@@ -9,13 +9,13 @@
   "version" : "0.1.0",
   "name" : "CRISP",
   "status" : "draft",
-  "date" : "2024-12-10T12:33:46+01:00",
-  "publisher" : "Example Publisher",
+  "date" : "2025-02-05T17:06:32+01:00",
+  "publisher" : "Berlin Institute of Health",
   "contact" : [{
-    "name" : "Example Publisher",
+    "name" : "Berlin Institute of Health",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://example.org/example-publisher"
+      "value" : "https://www.bihealth.org"
     }]
   }],
   "packageId" : "fhir.example",
@@ -29,7 +29,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.1.0"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -40,6 +40,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.1.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_sdc",
+    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+    "packageId" : "hl7.fhir.uv.sdc",
+    "version" : "3.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -599,6 +605,28 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/MinimalPSAExample"
+      },
+      "name" : "Example for definition-based extraction",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "QuestionnaireResponse"
+      }],
+      "reference" : {
+        "reference" : "QuestionnaireResponse/MinimalPSAExampleResponse"
+      },
+      "name" : "MinimalPSAExampleResponse",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -640,10 +668,46 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "background.html"
+        }],
+        "nameUrl" : "background.html",
+        "title" : "Background",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "workflow.html"
         }],
         "nameUrl" : "workflow.html",
         "title" : "Workflow",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "future-ideas.html"
+        }],
+        "nameUrl" : "future-ideas.html",
+        "title" : "Future Ideas",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "questionnaire.html"
+        }],
+        "nameUrl" : "questionnaire.html",
+        "title" : "Questionnaire",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "sdc-extraction.html"
+        }],
+        "nameUrl" : "sdc-extraction.html",
+        "title" : "Extraction",
         "generation" : "markdown"
       }]
     },

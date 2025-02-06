@@ -1,0 +1,113 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.example",
+  "url": "http://example.org/ImplementationGuide/fhir.example",
+  "version": "0.1.0",
+  "name": "CRISP",
+  "status": "draft",
+  "publisher": "Berlin Institute of Health",
+  "contact": [
+    {
+      "name": "Berlin Institute of Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bihealth.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.example",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.uv.sdc",
+      "version": "3.0.0",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "id": "hl7_fhir_uv_sdc"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Questionnaire/MinimalPSAExample"
+        },
+        "name": "Example for definition-based extraction",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MinimalPSAExampleResponse"
+        },
+        "name": "MinimalPSAExampleResponse",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/MyPatient"
+        },
+        "name": "MyPatient",
+        "description": "An example profile of the Patient resource.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/PatientExample"
+        },
+        "name": "PatientExample",
+        "description": "An example of a patient with a license to krill.",
+        "exampleCanonical": "http://example.org/StructureDefinition/MyPatient"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Example Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "background.html",
+          "title": "Background",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "workflow.html",
+          "title": "Workflow",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "future-ideas.html",
+          "title": "Future Ideas",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "questionnaire.html",
+          "title": "Questionnaire",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "sdc-extraction.html",
+          "title": "Extraction",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

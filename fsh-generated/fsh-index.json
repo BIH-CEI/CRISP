@@ -1,0 +1,34 @@
+[
+  {
+    "outputFile": "Patient-PatientExample.json",
+    "fshName": "PatientExample",
+    "fshType": "Instance",
+    "fshFile": "patient.fsh",
+    "startLine": 9,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Questionnaire-MinimalPSAExample.json",
+    "fshName": "MinimalPSAExample",
+    "fshType": "Instance",
+    "fshFile": "MinimalBeispielSDCQuestionnaire.fsh",
+    "startLine": 2,
+    "endLine": 80
+  },
+  {
+    "outputFile": "QuestionnaireResponse-MinimalPSAExampleResponse.json",
+    "fshName": "MinimalPSAExampleResponse",
+    "fshType": "Instance",
+    "fshFile": "MinimalBeispielSDCQuestionnaireResponse.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-MyPatient.json",
+    "fshName": "MyPatient",
+    "fshType": "Profile",
+    "fshFile": "patient.fsh",
+    "startLine": 4,
+    "endLine": 7
+  }
+]

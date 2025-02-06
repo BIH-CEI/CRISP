@@ -1,0 +1,5 @@
+Output File                                           Name                       Type      FSH File                                     Lines
+Patient-PatientExample.json                           PatientExample             Instance  patient.fsh                                  9 - 14
+Questionnaire-MinimalPSAExample.json                  MinimalPSAExample          Instance  MinimalBeispielSDCQuestionnaire.fsh          2 - 80
+QuestionnaireResponse-MinimalPSAExampleResponse.json  MinimalPSAExampleResponse  Instance  MinimalBeispielSDCQuestionnaireResponse.fsh  1 - 21
+StructureDefinition-MyPatient.json                    MyPatient                  Profile   patient.fsh                                  4 - 7

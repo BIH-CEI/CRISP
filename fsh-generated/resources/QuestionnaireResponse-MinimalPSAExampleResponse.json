@@ -1,0 +1,34 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "MinimalPSAExampleResponse",
+  "meta": {
+    "lastUpdated": "2024-05-05T12:48:40Z",
+    "source": "https://art-decor.org/fhir/4.0/pathdv-"
+  },
+  "item": [
+    {
+      "answer": [
+        {
+          "valueQuantity": {
+            "value": 1.234
+          }
+        }
+      ],
+      "linkId": "PSA-Serologie",
+      "definition": "http://hl7.org/fhir/Observation#Observation.valueQuantity.value"
+    },
+    {
+      "answer": [
+        {
+          "valueString": "T1N1M0"
+        }
+      ],
+      "linkId": "Klinisches TNM",
+      "definition": "http://hl7.org/fhir/DiagnosticReport#DiagnosticReport.conclusion"
+    }
+  ],
+  "language": "de-DE",
+  "questionnaire": "http://example.org/fhir/QuestionnairesSDC/Questionnaire/MinimalPSAExample",
+  "status": "completed",
+  "authored": "2024-04-26T10:26:24Z"
+}

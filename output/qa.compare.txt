@@ -1,38 +1,34 @@
 CRISP : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 1
+err = 7, warn = 6, info = 2
 $--
 Generated $--. FHIR version $-- for fhir.example#$-- (canonical = http://example.org)
- Build Errors : 18 / 4 / 0
+ Build Errors : 0 / 6 / 0
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
+ C:\Users\thoma\coding\CRISP\fsh-generated\resources\Questionnaire-MinimalPSAExample : 5 / 0 / 1
+ C:\Users\thoma\coding\CRISP\fsh-generated\resources\QuestionnaireResponse-MinimalPSAExampleResponse : 2 / 0 / 2
  C:\Users\thoma\coding\CRISP\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 185, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 194, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 557, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 358, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1608, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 3004, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2098, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2780, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\artifacts.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\index.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\toc.html#/html/body/div/div/div/p/a at Line 141, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
-ERROR: C:\Users\thoma\coding\CRISP\output\workflow.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/MinimalPSAExample.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/MinimalPSAExampleResponse.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\ImplementationGuide-fhir.example.json ==
 == fsh-generated\resources\Patient-PatientExample.json ==
+== fsh-generated\resources\Questionnaire-MinimalPSAExample.json ==
+ERROR: Questionnaire.where(url = 'http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example'): Conformance resource C:\Users\thoma\coding\CRISP\fsh-generated\resources\Questionnaire-MinimalPSAExample.json - the canonical URL (http://example.org/Questionnaire/MinimalPSAExample) does not match the URL (http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example)
+ERROR: Questionnaire.url: Resource id/url mismatch: MinimalPSAExample/http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example
+ERROR: Questionnaire/MinimalPSAExample: Questionnaire.item[0].extension[4].value.ofType(CodeableConcept).coding[0].code: Unbekannter Code 22637-3 in http://terminology.hl7.org/CodeSystem/observation-category Version 1.0.1
+ERROR: Questionnaire/MinimalPSAExample: Questionnaire.item[1]: Constraint failed: que-1: 'Group items must have nested items, display items cannot have nested items' (defined in http://hl7.org/fhir/StructureDefinition/Questionnaire)
+ERROR: C:\Users\thoma\coding\CRISP\fsh-generated\resources\Questionnaire-MinimalPSAExample: URL Mismatch http://example.org/Questionnaire/MinimalPSAExample vs http://example.org/fhir/QuestionnairesSDC/Questionnaire/Minimal-Example
+== fsh-generated\resources\QuestionnaireResponse-MinimalPSAExampleResponse.json ==
+ERROR: QuestionnaireResponse/MinimalPSAExampleResponse: QuestionnaireResponse.item[0].definition: URL-Wert 'http://hl7.org/fhir/Observation#Observation.valueQuantity.value' löst nicht auf
+ERROR: QuestionnaireResponse/MinimalPSAExampleResponse: QuestionnaireResponse.item[1].definition: URL-Wert 'http://hl7.org/fhir/DiagnosticReport#DiagnosticReport.conclusion' löst nicht auf
+INFORMATION: QuestionnaireResponse/MinimalPSAExampleResponse: QuestionnaireResponse: Der Fragebogen 'http://example.org/fhir/QuestionnairesSDC/Questionnaire/MinimalPSAExample' konnte nicht gefunden werden, so dass keine Validierung gegen den Basisfragebogen durchgeführt werden kann.
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: Der String-Wert enthält Text, der wie eingebettete HTML-Tags aussieht. Wenn dieser Inhalt ohne entsprechende Nachbearbeitung in HTML gerendert wird, kann er ein Sicherheitsrisiko darstellen
